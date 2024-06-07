@@ -43,9 +43,8 @@ public class SimulationDriver {
         }
 
         Student[] duplicateAnswers = duplicateAnswerStudents(amountOfStudents, students);
-        for (int i = 0; i < duplicateAnswers.length; i++) {
-            System.out.println(duplicateAnswers[i].getId());
-        }
+
+        // TODO: Implement adding the duplicate answers to update answer list. Test with displayResults before/after
 
         vs.displayResults();
     }
@@ -67,6 +66,10 @@ public class SimulationDriver {
             vs.submitAnswer(stu, answer);
         }
 
+        Student[] duplicateAnswers = duplicateAnswerStudents(amountOfStudents, students);
+
+        // TODO: Implement adding the duplicate answers to update answer list. Test with displayResults before/after
+
         vs.displayResults();
     }
 
@@ -77,10 +80,9 @@ public class SimulationDriver {
             int rngStu = rand.nextInt(students.size());
             redoStudents[i] = students.get(rngStu);
             while(Arrays.asList(redoStudents).contains(students.get(rngStu))) {
-                System.out.println(rngStu + " "  );
                 rngStu = rand.nextInt(students.size());
-                redoStudents[i] = students.get(rngStu);
             }
+            redoStudents[i] = students.get(rngStu);
         }
         return redoStudents;
     }
