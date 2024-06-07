@@ -69,6 +69,7 @@ public class SimulationDriver {
         Student[] duplicateAnswers = duplicateAnswerStudents(amountOfStudents, students);
 
         // TODO: Implement adding the duplicate answers to update answer list. Test with displayResults before/after
+        // TODO: Right/Wrong answer count
 
         vs.displayResults();
     }

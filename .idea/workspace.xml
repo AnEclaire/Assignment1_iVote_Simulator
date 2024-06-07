@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39129c48-d85d-4cd7-9875-2af0212dc717" name="Changes" comment="Init">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="39129c48-d85d-4cd7-9875-2af0212dc717" name="Changes" comment="Duplicate Answers from student logic implemented">
       <change beforePath="$PROJECT_DIR$/src/SimulationDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimulationDriver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Eclaire &lt;eclaire.tv@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -41,7 +45,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/home/nobody/IdeaProjects/Assignment 1/src/Main.java"
+    "onboarding.tips.debug.path": "/home/nobody/IdeaProjects/Assignment 1/src/Main.java",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,11 +66,38 @@
       <option name="project" value="LOCAL" />
       <updated>1717741695047</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Init">
+      <option name="closed" value="true" />
+      <created>1717742258178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717742258178</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Init">
+      <option name="closed" value="true" />
+      <created>1717742287826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717742287826</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Duplicate Answers from student logic implemented">
+      <option name="closed" value="true" />
+      <created>1717742312814</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717742312814</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="duplicate answers implemented" />
+    <MESSAGE value="Dupli" />
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Duplicate Answers from student logic implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Duplicate Answers from student logic implemented" />
   </component>
 </project>
