@@ -1,0 +1,56 @@
+package concepts;
+import java.util.Map;
+import java.util.HashMap;
+
+public class VotingService {
+    private Question question;
+    private Map<String, String> submissions;
+
+    /**
+     * Default constructor, initializes empty submissions HashMap.
+     */
+    public VotingService() {
+        submissions = new HashMap<>();
+    }
+
+    /**
+     * Assigns internal question string to passed in question string.
+     * @param question
+     */
+    public void config(Question question) {
+        this.question = question;
+    }
+
+    /**
+     * Stores passed in student into map keyed to student ID. Value is student answer.
+     * @param student
+     * @param answer
+     */
+    public void submitAnswer(Student student, String answer) {
+        submissions.put(student.getId(), answer);
+    }
+
+    public void displayResults() {
+        if(question == null) {
+            System.out.println("No question has been set up!");
+            return;
+        }
+
+        Map<String, Integer> resultsCounter = new HashMap<>();
+        for(String answer : submissions.values()) {
+            if(question.isMultiple()) {
+                String[] answers = answer.split(",");
+                for(String a: answers) {
+                    resultsCounter.put(a.trim(), resultsCounter.getOrDefault(a.trim(), 0) + 1);
+                }
+            } else {
+                resultsCounter.put(answer, resultsCounter.getOrDefault(answer, 0) + 1);
+            }
+        }
+
+        System.out.println("Aggregate results for the following question: " + question.getQuestionText());
+        for(String ans : question.getAnswers()) {
+            System.out.println(ans + ": " + resultsCounter.getOrDefault(ans, 0));
+        }
+    }
+}
