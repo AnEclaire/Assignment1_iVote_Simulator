@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39129c48-d85d-4cd7-9875-2af0212dc717" name="Changes" comment="Updated TODO">
+    <list default="true" id="39129c48-d85d-4cd7-9875-2af0212dc717" name="Changes" comment="Finalized">
+      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimulationDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimulationDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concepts/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concepts/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concepts/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concepts/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concepts/VotingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concepts/VotingService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717742712518</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finalized">
+      <option name="closed" value="true" />
+      <created>1717805294723</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717805294723</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,6 +116,7 @@
     <MESSAGE value="Init" />
     <MESSAGE value="Duplicate Answers from student logic implemented" />
     <MESSAGE value="Updated TODO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated TODO" />
+    <MESSAGE value="Finalized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalized" />
   </component>
 </project>
