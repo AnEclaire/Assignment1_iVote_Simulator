@@ -1,5 +1,11 @@
 package concepts;
 
+/**
+ * Emma Gutierrez
+ * CS 3560 - Summer 2024
+ * Dr. Yu Sun
+ * Student.java
+ */
 public class Student {
     private String id;
 

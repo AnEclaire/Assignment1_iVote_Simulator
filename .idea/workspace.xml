@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39129c48-d85d-4cd7-9875-2af0212dc717" name="Changes" comment="Duplicate Answers from student logic implemented">
+    <list default="true" id="39129c48-d85d-4cd7-9875-2af0212dc717" name="Changes" comment="Updated TODO">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SimulationDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimulationDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concepts/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concepts/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concepts/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concepts/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concepts/VotingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concepts/VotingService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717742312814</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated TODO">
+      <option name="closed" value="true" />
+      <created>1717742712518</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717742712518</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -98,6 +110,7 @@
     <MESSAGE value="Dupli" />
     <MESSAGE value="Init" />
     <MESSAGE value="Duplicate Answers from student logic implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Duplicate Answers from student logic implemented" />
+    <MESSAGE value="Updated TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated TODO" />
   </component>
 </project>
